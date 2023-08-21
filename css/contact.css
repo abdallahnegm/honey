@@ -1,0 +1,33 @@
+
+/* start contact */
+.contact{
+    background-image: url('..//images/body_bg.png');
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.contact h1{
+    font-size: 56px;
+    font-weight: bold;
+    padding-top: 70px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.contact .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    gap: 50px;
+}
+@media (max-width:992px) {
+    .contact .container{
+        grid-template-columns: none;
+
+    }
+}
+.contact input{
+    background-color: transparent;
+    padding: 20px;
+    border:  1px solid white;
+    color: white;
+}
+/* end contact */
